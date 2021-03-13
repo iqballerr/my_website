@@ -29,6 +29,7 @@ const LinkButton = (props) => {
   <Button
   variant="outline-light"
   href={props.link}
+  target="_blank"
   className="mb-3 max-button"
   size="lg"
   block
