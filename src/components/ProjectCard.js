@@ -14,9 +14,11 @@ const ProjectCard = (props) => {
         </Card.Text>
     </Card.Body>
     <div className="d-flex flex-row justify-content-around mb-3">
-      <Button variant="outline-primary" href={props.github}>
+      <a href={props.github} target="_blank">
+        <Button variant="outline-primary">
         <Icon icon={githubIcon} />
       </Button>
+      </a>
       {props.url !== '' && (
         <Button variant="outline-success" href={props.url}>
           It's live
