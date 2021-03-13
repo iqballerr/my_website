@@ -4,7 +4,8 @@ import {Icon} from '@iconify/react';
 import githubIcon from '@iconify-icons/simple-icons/github';
 
 const ProjectCard = (props) => {
-	return <Card className="col-12 col-md-6 col-lg-3 mx-3 my-3">
+	return (
+  <Card className="col-12 col-md-6 col-lg-3 mx-3 my-3">
     <Card.Body>
       <Card.Title>{props.name}</Card.Title>
       <Card.Text>{props.description}</Card.Text>
@@ -16,9 +17,14 @@ const ProjectCard = (props) => {
       <Button variant="outline-primary" href={props.githubIcon}>
         <Icon icon={githubIcon} />
       </Button>
-      {props.url !== '' && <Button variant="outline-success" href={props.url}>It's live</Button>}
+      {props.url !== '' && (
+        <Button variant="outline-success" href={props.url}>
+          It's live
+        </Button>
+      )}
     </div>
-  </Card>;
+  </Card>
+  );
 };
 
 export default ProjectCard;
