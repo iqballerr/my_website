@@ -4,20 +4,20 @@ import ProjectCard from './ProjectCard'
 const ProjectList = () => {
   const projects = [
     {
-      name: 'Monitoring and Managing the Impact of Air Quality',
+      name: 'Discord Bot',
       url: '',
-      github: '',
-      languages: 'Python',
+      github: 'https://github.com/iqballerr/discord-bot',
+      languages: 'JavaScript, Node.js, Discord.js',
       description:
-        'Developed a program giving a reading of areas with unhealthy air quality. Used two web APIs, PurpleAir for collection of air quality sensors around the United States and NominatimAPI for a geocoding service.'
+        'Created a simple discord bot using a powerful node.js module that allows you to interact with the Discord API very easily.'
     },
     {
-      name: 'Connect Four Game',
+      name: 'Portfolio Website',
       url: '',
-      github: '',
-      languages: 'Python',
+      github: 'https://github.com/iqballerr/my_website',
+      languages: 'JavaScript, React, Node.js, Netlify, Bootstrap',
       description:
-        'Implemented a Python-shell based game that you can play on your own computer or play online by connecting to a central, shared server. Used thrid-party game library PyGame 2.0 for GUI.'
+        'Developed a personal website to display my digital portfolio that you are currently viewing right now. Developed with React, a Javascript library for building user interfaces, and was deployed via Netlify. Updates will be implemented.'
     },
   ]
 	return (
