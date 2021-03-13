@@ -21,6 +21,7 @@ const About = () => {
       <Button
         variant="outline-light"
         href={`${process.env.PUBLIC_URL}Iqbal_Lodin_Resume_2021.pdf`}
+        target="_blank"
         size="lg"
         download
       >My Resume
