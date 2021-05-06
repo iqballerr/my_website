@@ -20,7 +20,7 @@ const About = () => {
       </h5>
       <Button
         variant="outline-light"
-        href={`${process.env.PUBLIC_URL}Iqbal_Lodin_Resume_2021.pdf`}
+        href={`${process.env.PUBLIC_URL}Iqbal Lodin Resume Spring 2021.pdf`}
         target="_blank"
         size="lg"
         download
